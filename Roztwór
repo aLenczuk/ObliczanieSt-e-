@@ -1,0 +1,31 @@
+public class Roztwór
+{
+
+	private double ilośćRozpuszczalnika;
+	private double ilośćSubRozpuszczonej;
+	private double liczbaMoli;
+	private double objętość;
+	
+
+	public Roztwór() {
+		super();
+		this.ilośćRozpuszczalnika = ilośćRozpuszczalnika;
+		this.ilośćSubRozpuszczonej = ilośćSubRozpuszczonej;
+		this.liczbaMoli= liczbaMoli;
+		this.objętość= objętość;
+	}
+
+	public double obliczCP(double ilośćRozpuszczalnika, double ilośćSubRozpuszczonej){
+		
+		
+		double CP= ilośćSubRozpuszczonej/ilośćRozpuszczalnika* 100;
+		return CP;
+	}
+
+	
+	public double obliczCM(double liczbaMoli, double objętość){
+		double CM= liczbaMoli/objętość;
+		return CM;
+	}
+	
+}
